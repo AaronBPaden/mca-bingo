@@ -9,6 +9,21 @@
         <title>Title</title>
     </head>
     <body>
+        <header class="header">
+            <h1>Bingo</h1>
+            <button id="displayGenerator" class="btn btn-header">Host</button>
+            <button id="displayCard" class="btn btn-header">Player</button>
+        </header>
+        <main id="generateMain" class="main">
+            <div id="output">
+            </div>
+            <button class="btn btn-primary" id="generateButton">Generate</button>
+        </main>
+        <main id="gameBoardMain" class="main">
+            <div id="cardOutput" class="card-output">
+            </div>
+            <button id="generateCard" class="btn btn-primary">Generate Card</button>
+        </main>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
